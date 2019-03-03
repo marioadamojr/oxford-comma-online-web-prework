@@ -9,5 +9,5 @@ def oxford_comma(array)
     incl_and = array.insert(-1, "and")
     words = incl_and.join(", ")
     puts words + last
-  end 
+  end
 end
