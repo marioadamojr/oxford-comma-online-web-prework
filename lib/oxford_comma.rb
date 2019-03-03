@@ -5,7 +5,7 @@ def oxford_comma(array)
     puts array.join(", ")
   else
     array.pop = last
-    last = last.join    
+    last = last.join
     incl_and = array.insert(-1, "and")
     words = incl_and.join(", ")
     puts words + last
