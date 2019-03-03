@@ -4,9 +4,10 @@ def oxford_comma(array)
   elsif array.length == 2
     puts array.join(", ")
   else
-    array.pop = last
+    last = array.pop
     last = last.join
     incl_and = array.insert(-1, "and")
     words = incl_and.join(", ")
     puts words + last
+  end 
 end
